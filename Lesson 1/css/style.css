@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(31, 34, 53);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.header {
+  height: 100px;
+  max-width: 1285px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu {
+  align-items: center;
+  display: flex;
+}
+.menu__item {
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-right: 24px;
+}
+.menu__item:hover {
+  color: rgb(254, 70, 28);
+  text-decoration: underline;
+}
+.menu_button {
+  border-radius: 4px;
+  background: rgb(254, 70, 28);
+  color: rgb(255, 255, 255);
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 17px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 24px;
+}
+.main-banner {
+  position: relative;
+  display: flex;
+  max-width: 1440px;
+  align-items: center;
+  margin: 0 auto;
+}
+.main-banner__icons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.main-banner__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 654px;
+}
+.main-banner__content-welcome {
+  color: rgb(255, 255, 255);
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 15%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.main-banner__content_main-title{
+    font-family: Outfit;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    text-transform: capitalize; 
+}
+.main-banner__content_main-title > spam {
+    rgb(254, 70, 28);
+}
